@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pudael Zikri - Personal Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </head>
+    <body class="halamanutama">
+        <header>
+            <nav class="navbar">
+                <div class="navbar-container">
+                    <a class="navbar-brand" href="#">Tugas Website</a>
+                    <input type="checkbox" id="navbar-toggle">
+                    <label for="navbar-toggle" class="navbar-toggle-label">Menu</label>
+                    
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="halamanutama.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="halaman1.html">Biodata</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="halaman2.html">Isi Biodata</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section class="content-section">
+                <img src="46557f36-4ecb-4932-81f2-85c959fa2821.jpg" alt="Pudael Zikri" class="profile-img"/>
+                <br>
+                <table>
+                    <tbody class = "content-section">
+                        <tr>
+                            <td style="color:black; font-size:20px; font-weight:bold; text-align: center;">Pudael Zikri</td>
+                        </tr>
+                        <tr>
+                        <td style="color:black; font-size:20px; font-weight:bold; text-align: center;">Student | Web Developer | Technology Enthusiast</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section class="about">
+                <h2>About Me</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc eget ultricies tincidunt, velit velit bibendum velit, vel bibendum sapien nunc vel lectus. Fusce euismod, nunc sit amet aliquam lacinia, nisi enim lobortis enim, vel lacinia nunc enim eget nunc.</p>
+            </section>
+
+            <section class="skills">
+                <h2>Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill">HTML5</div>
+                    <div class="skill">CSS3</div>
+                    <div class="skill">JavaScript</div>
+                    <div class="skill">Python</div>
+                </div>
+            </section>
+
+            <section class = "dael">
+                <form id="loginForm" action="formlog" method="post">
+                    <div class="box">
+                        <div class="login">
+                            <div class="loginBx">
+                                <h2>
+                                    <i class="fa-solid fa-right-to-bracket"></i>
+                                    Login
+                                </h2>
+                                <input type="text" id="username" name="username" placeholder="Username">
+                                <div id="usernameError" class="error"></div>
+                                
+                                <input type="password" id="password" name="password" placeholder="Password">
+                                <div id="passwordError" class="error"></div>
+                                
+                                <input type="submit" value="Sign in" />
+                                <div class="group">
+                                    <a href="#">Forgot Password</a>
+                                    <a href="#">Sign up</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+        </main>
+
+        <footer>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=100037214299392">
+                    <div class="icon facebook">
+                        <div class="tooltip">Facebook</div>
+                        <span><i class="fab fa-facebook-f"></i></span>
+                    </div>
+                </a>
+                
+                <a href="https://www.instagram.com/daelzikri_">
+                    <div class="icon instagram">
+                        <div class="tooltip">Instagram</div>
+                        <span><i class="fab fa-instagram"></i></span>
+                    </div>
+                </a>
+                
+                <a href="https://github.com/daelzikri">
+                    <div class="icon github">
+                        <div class="tooltip">Github</div>
+                        <span><i class="fab fa-github"></i></span>
+                    </div>
+                </a>
+                
+                <a href="https://youtube.com/channel/UCUzLWnDvxdsVFmSnQ8LE9iw">
+                    <div class="icon youtube">
+                        <div class="tooltip">Youtube</div>
+                        <span><i class="fab fa-youtube"></i></span>
+                    </div>
+                </a>
+            </div>
+            <p>&copy; 2025 Pudael Zikri. All Rights Reserved.</p>          
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
